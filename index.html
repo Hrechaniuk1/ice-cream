@@ -3,7 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Ice Cream</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Montserrat:wght@400;500;600;700;800;900&family=Roboto:wght@700&family=Seymour+One&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -11,36 +17,52 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <ul>
-        <li>
+    <header class="container ice-cream-header">
+      <ul class="header-navigation-list">
+        <li class="header-navigation-list-logo">
           <a href="">
-            <svg>
-              <use></use>
+            <svg
+              class="header-navigation-list-logo-icon"
+              width="40"
+              height="37"
+            >
+              <use href="./css/images/symbol-defs.svg#icon-logo"></use>
             </svg>
           </a>
         </li>
-        <li>
-          <a href="">
-            <svg>
-              <use></use>
-            </svg>
-          </a>
+        <li class="header-navigation-list-burger">
+          <svg
+            class="header-navigation-list-burger-icon"
+            width="32"
+            height="32"
+          >
+            <use href="./css/images/symbol-defs.svg#icon-mob-menu"></use>
+          </svg>
         </li>
       </ul>
-      <h1>ice cream made with passion</h1>
-      <ul>
-        <li><a href="">Products</a></li>
-        <li><a href="">How it’s made?</a></li>
+      <h1 class="header-main-title">ice cream made with passion</h1>
+      <ul class="header-btn-list">
+        <li>
+          <button class="header-btn-list-product" type="button">
+            Products
+          </button>
+        </li>
+        <li>
+          <button class="header-btn-list-hitsm" type="button">
+            How it’s made?
+          </button>
+        </li>
       </ul>
     </header>
-    <section>
-      <p>100% natural</p>
-      <h2>products</h2>
-      <ul>
-        <li>
-          <div>
-            <picture width="200" height="200">
+    <section class="container product-section">
+      <p class="product-section-main-text">100% natural</p>
+      <h2 class="product-section-main-title">products</h2>
+      <ul class="product-section-list">
+        <li class="product-section-list-item product-section-list-item-1">
+          <div
+            class="product-section-img-container product-section-img-container-1"
+          >
+            <picture class="product-section-img" width="200" height="200">
               <source
                 srcset="
                   ./css/images/section-1/mob/ice-cream-mob.png    1x,
@@ -51,18 +73,20 @@
               <img src="./css/images/section-1/mob/ice-cream-mob.png" alt="" />
             </picture>
           </div>
-          <h3>ice cream</h3>
-          <p>
+          <h3 class="product-section-list-item-title">ice cream</h3>
+          <p class="product-section-list-item-description">
             Soft ice cream with a delicate taste. Made with milk, cream, sugar
             and natural stabilizer
           </p>
-          <svg>
-            <use></use>
+          <svg class="icon-order-now" height="15" width="40">
+            <use href="./css/images/symbol-defs.svg#icon-order-now"></use>
           </svg>
         </li>
-        <li>
-          <div>
-            <picture width="200" height="200">
+        <li class="product-section-list-item product-section-list-item-2">
+          <div
+            class="product-section-img-container product-section-img-container-2"
+          >
+            <picture class="product-section-img" width="200" height="200">
               <source
                 srcset="
                   ./css/images/section-1/mob/ice-coffee-mob.png    1x,
@@ -73,18 +97,20 @@
               <img src="./css/images/section-1/mob/ice-coffee-mob.png" alt="" />
             </picture>
           </div>
-          <h3>ice coffee</h3>
-          <p>
+          <h3 class="product-section-list-item-title">ice coffee</h3>
+          <p class="product-section-list-item-description">
             Fragrant invigorating drink created from 100% natural ingredients
             without the use of preservatives and flavor enhancers
           </p>
-          <svg>
-            <use></use>
+          <svg class="icon-order-now" height="15" width="40">
+            <use href="./css/images/symbol-defs.svg#icon-order-now"></use>
           </svg>
         </li>
-        <li>
-          <div>
-            <picture width="200" height="200">
+        <li class="product-section-list-item product-section-list-item-3">
+          <div
+            class="product-section-img-container product-section-img-container-3"
+          >
+            <picture class="product-section-img" width="200" height="200">
               <source
                 srcset="
                   ./css/images/section-1/mob/milk-shake-mob.png    1x,
@@ -95,13 +121,13 @@
               <img src="./css/images/section-1/mob/milk-shake-mob.png" alt="" />
             </picture>
           </div>
-          <h3>milkshakes</h3>
-          <p>
+          <h3 class="product-section-list-item-title">milkshakes</h3>
+          <p class="product-section-list-item-description">
             Sweet drinks based on milk and ice cream, supplemented with syrups,
             fruits, berries and other sweets of your choice
           </p>
-          <svg>
-            <use></use>
+          <svg class="icon-order-now" height="15" width="40">
+            <use href="./css/images/symbol-defs.svg#icon-order-now"></use>
           </svg>
         </li>
       </ul>
