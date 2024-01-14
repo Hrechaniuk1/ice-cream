@@ -78,9 +78,11 @@
             Soft ice cream with a delicate taste. Made with milk, cream, sugar
             and natural stabilizer
           </p>
-          <svg class="icon-order-now" height="15" width="40">
-            <use href="./css/images/symbol-defs.svg#icon-order-now"></use>
-          </svg>
+          <button class="icon-order-now-btn">
+            <svg class="icon-order-now" height="15" width="40">
+              <use href="./css/images/symbol-defs.svg#icon-order-now"></use>
+            </svg>
+          </button>
         </li>
         <li class="product-section-list-item product-section-list-item-2">
           <div
@@ -102,9 +104,11 @@
             Fragrant invigorating drink created from 100% natural ingredients
             without the use of preservatives and flavor enhancers
           </p>
-          <svg class="icon-order-now" height="15" width="40">
-            <use href="./css/images/symbol-defs.svg#icon-order-now"></use>
-          </svg>
+          <button class="icon-order-now-btn">
+            <svg class="icon-order-now" height="15" width="40">
+              <use href="./css/images/symbol-defs.svg#icon-order-now"></use>
+            </svg>
+          </button>
         </li>
         <li class="product-section-list-item product-section-list-item-3">
           <div
@@ -126,18 +130,20 @@
             Sweet drinks based on milk and ice cream, supplemented with syrups,
             fruits, berries and other sweets of your choice
           </p>
-          <svg class="icon-order-now" height="15" width="40">
-            <use href="./css/images/symbol-defs.svg#icon-order-now"></use>
-          </svg>
+          <button class="icon-order-now-btn">
+            <svg class="icon-order-now" height="15" width="40">
+              <use href="./css/images/symbol-defs.svg#icon-order-now"></use>
+            </svg>
+          </button>
         </li>
       </ul>
     </section>
     <!--  -->
-    <section>
-      <p>tradition and love</p>
-      <h2>how it’s made?</h2>
-      <div>
-        <picture width="278" height="278">
+    <section class="how-made-section">
+      <p class="how-made-section-description">tradition and love</p>
+      <h2 class="how-made-section-title">how it’s made?</h2>
+      <div class="how-made-section-img-container">
+        <picture class="how-made-section-img" width="278" height="278">
           <source
             srcset="
               ./css/images/section-how-its-made/mob/section-how-its-made-mob.png    1x,
@@ -151,47 +157,59 @@
           />
         </picture>
       </div>
-      <ul>
-        <li>
-          <p>
+      <ul class="how-made-section-list">
+        <li class="how-made-section-list-item">
+          <br class="how-made-section-list-item-description">
             Ice is a place where you will become not only a little happier, but
             also healthier. Health is the main value for us, and we follow it
-            when creating our handmade desserts. We use traditional recipes and
+            when creating our handmade desserts. </br> We use traditional recipes and
             100% natural ingredients. Our products are so natural that they can
             be given to children from the age of three years. Sweets lovers can
             expect 55 types of ice cream, 15 types of coffee and 23 milkshakes.
           </p>
         </li>
-        <li>
-          <button type="button">
+        <li class="how-made-section-list-item">
+          <button class="how-made-section-list-btn" type="button">
             Read more
-            <scg>
-              <use></use>
-            </scg>
+            <svg class="how-made-btn-icon" width="12" height="12">
+              <use href="./css/images/symbol-defs.svg#icon-more"></use>
+            </svg>
           </button>
         </li>
       </ul>
-      <ul>
-        <li>
-          <svg>
-            <use></use>
+      <ul class="how-made-features-list">
+        <li class="how-made-features-list-item">
+          <div class="how-made-features-icon-container">
+          <svg class="how-made-features-icon" width="36" height="36">
+            <use href="./css/images/symbol-defs.svg#icon-cow"></use>
           </svg>
-          <p>721</p>
-          <p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+          </div>
+          <p class="how-made-features-description-1">721</p>
+          <p class="how-made-features-description-2">
+            Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+          </p>
         </li>
-        <li>
-          <svg>
-            <use></use>
+        <li class="how-made-features-list-item">
+          <div class="how-made-features-icon-container">
+          <svg class="how-made-features-icon" width="36" height="36">
+            <use href="./css/images/symbol-defs.svg#icon-weight"></use>
           </svg>
-          <p>16kg</p>
-          <p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+          </div>
+          <p class="how-made-features-description-1">16kg</p>
+          <p class="how-made-features-description-2">
+            Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+          </p>
         </li>
-        <li>
-          <svg>
-            <use></use>
+        <li class="how-made-features-list-item">
+          <div class="how-made-features-icon-container">
+          <svg class="how-made-features-icon" width="36" height="36">
+            <use href="./css/images/symbol-defs.svg#icon-ice-crema"></use>
           </svg>
-          <p>84</p>
-          <p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+          </div>
+          <p class="how-made-features-description-1">84</p>
+          <p class="how-made-features-description-2">
+            Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+          </p>
         </li>
       </ul>
     </section>
