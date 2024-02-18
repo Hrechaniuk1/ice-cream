@@ -138,8 +138,8 @@
         </li>
       </ul>
     </section>
-    <!--  -->
-    <section class="how-made-section">
+    <!-- section 2 -->
+    <section class="how-made-section container">
       <p class="how-made-section-description">tradition and love</p>
       <h2 class="how-made-section-title">how it’s made?</h2>
       <div class="how-made-section-img-container">
@@ -214,8 +214,8 @@
       </ul>
     </section>
     <!--  -->
-    <section>
-      <picture>
+    <section class="section-rev container">
+      <picture class="section-rev-main-img">
         <source
           srcset="
             ./css/images/section-revievs/mob/section-revievs-main-mob.png    1x,
@@ -228,9 +228,9 @@
           alt=""
         />
       </picture>
-      <ul>
+      <ul class="rev-list">
         <li>
-          <div>
+          <div class="rev-list-img-container" >
             <picture>
               <source
                 srcset="
@@ -244,15 +244,37 @@
               />
             </picture>
           </div>
-          <p>
+          <p class="rev-list-text" >
+            I love visiting your cafe. You prepare the most delicious ice cream
+            in Los Angeles! In addition, you have beautiful serving, cozy
+            atmosphere and polite staff.
+          </p>
+          <h3 class="rev-list-name">Emily, Los Angeles</h3>
+        </li>
+        <li class="is-hidden">
+          <div class="rev-list-img-container">
+            <picture>
+              <source
+                srcset="
+                  ./css/images/section-revievs/section-revievs-ava.png    1x,
+                  ./css/images/section-revievs/section-revievs-ava@2x.png 2x
+                "
+              />
+              <img
+                src="./css/images/section-revievs/section-revievs-ava.png"
+                alt=""
+              />
+            </picture>
+          </div>
+          <p class="rev-list-text">
             I love visiting your cafe. You prepare the most delicious ice cream
             in Los Angeles! In addition, you have beautiful serving, cozy
             atmosphere and polite staff.
           </p>
           <h3>Emily, Los Angeles</h3>
         </li>
-        <li>
-          <div>
+        <li class="is-hidden">
+          <div class="rev-list-img-container">
             <picture>
               <source
                 srcset="
@@ -266,29 +288,7 @@
               />
             </picture>
           </div>
-          <p>
-            I love visiting your cafe. You prepare the most delicious ice cream
-            in Los Angeles! In addition, you have beautiful serving, cozy
-            atmosphere and polite staff.
-          </p>
-          <h3>Emily, Los Angeles</h3>
-        </li>
-        <li>
-          <div>
-            <picture>
-              <source
-                srcset="
-                  ./css/images/section-revievs/section-revievs-ava.png    1x,
-                  ./css/images/section-revievs/section-revievs-ava@2x.png 2x
-                "
-              />
-              <img
-                src="./css/images/section-revievs/section-revievs-ava.png"
-                alt=""
-              />
-            </picture>
-          </div>
-          <p>
+          <p class="rev-list-text">
             I love visiting your cafe. You prepare the most delicious ice cream
             in Los Angeles! In addition, you have beautiful serving, cozy
             atmosphere and polite staff.
@@ -298,90 +298,92 @@
       </ul>
     </section>
     <!--  -->
-    <section>
-      <ul>
-        <li>
-          <h3>CAFE</h3>
-          <p>Chicago</p>
-          <p>10340 Ridgeland Ave, Chicago Ridge, IL 60415, USA</p>
-          <p>Monday - Friday</p>
-          <p>06:00 AM - 10:00 PM</p>
-          <p>Saturday - Sunday</p>
-          <p>08:00 AM - 16:00 PM</p>
-          <a href="mailto: noreply@envato.com">noreply@envato.com</a>
-          <a href="tel:+610383766284">+61(0) 383 766 284</a>
+    <section class="section-info-cards container">
+      <ul class="info-cards-list">
+        <li class="info-cards-list-item">
+          <h3 class="info-cards-list-item-title">CAFE</h3>
+          <p class="info-cards-list-item-city">Chicago</p>
+          <p class="info-cards-list-item-address">10340 Ridgeland Ave, Chicago Ridge, IL 60415, USA</p>
+          <p class="info-cards-list-item-days">Monday - Friday</p>
+          <p class="info-cards-list-item-hours-1">06:00 AM - 10:00 PM</p>
+          <p class="info-cards-list-item-days">Saturday - Sunday</p>
+          <p class="info-cards-list-item-hours-2">08:00 AM - 16:00 PM</p>
+          <a class="info-cards-list-item-mail-link" href="mailto: noreply@envato.com">noreply@envato.com</a>
+          <a class="info-cards-list-item-phone-link" href="tel:+610383766284">+61(0) 383 766 284</a>
         </li>
-        <li>
-          <h3>FOODTRUCK</h3>
-          <p>Los Angeles</p>
-          <p>1003 Manhattan Ave, Manhattan Beach, CA 90263, USA</p>
-          <p>Monday - Friday</p>
-          <p>06:00 AM - 10:00 PM</p>
-          <p>Saturday - Sunday</p>
-          <p>08:00 AM - 16:00 PM</p>
-          <a href="mailto: noreply@envato.com">noreply@envato.com</a>
-          <a href="tel:+610383766284">+61(0) 383 766 284</a>
+        <li class="info-cards-list-item">
+          <h3 class="info-cards-list-item-title card-title-ecxeption">FOODTRUCK</h3>
+          <p class="info-cards-list-item-city">Los Angeles</p>
+          <p class="info-cards-list-item-address">1003 Manhattan Ave, Manhattan Beach, CA 90263, USA</p>
+          <p class="info-cards-list-item-days">Monday - Friday</p>
+          <p class="info-cards-list-item-hours-1">06:00 AM - 10:00 PM</p>
+          <p class="info-cards-list-item-days">Saturday - Sunday</p>
+          <p class="info-cards-list-item-hours-2">08:00 AM - 16:00 PM</p>
+          <a class="info-cards-list-item-mail-link" href="mailto: noreply@envato.com">noreply@envato.com</a>
+          <a class="info-cards-list-item-phone-link" href="tel:+610383766284">+61(0) 383 766 284</a>
         </li>
-        <li>
-          <h3>CAFE</h3>
-          <p>New York</p>
-          <p>726 Sterling Pl, Brooklyn, NY 11222, USA</p>
-          <p>Monday - Friday</p>
-          <p>06:00 AM - 10:00 PM</p>
-          <p>Saturday - Sunday</p>
-          <p>08:00 AM - 16:00 PM</p>
-          <a href="mailto: noreply@envato.com">noreply@envato.com</a>
-          <a href="tel:+610383766284">+61(0) 383 766 284</a>
+        <li class="info-cards-list-item">
+          <h3 class="info-cards-list-item-title">CAFE</h3>
+          <p class="info-cards-list-item-city">New York</p>
+          <p class="info-cards-list-item-address">726 Sterling Pl, Brooklyn, NY 11222, USA</p>
+          <p class="info-cards-list-item-days">Monday - Friday</p>
+          <p class="info-cards-list-item-hours-1">06:00 AM - 10:00 PM</p>
+          <p class="info-cards-list-item-days">Saturday - Sunday</p>
+          <p class="info-cards-list-item-hours-2">08:00 AM - 16:00 PM</p>
+          <a class="info-cards-list-item-mail-link" href="mailto: noreply@envato.com">noreply@envato.com</a>
+          <a class="info-cards-list-item-phone-link" href="tel:+610383766284">+61(0) 383 766 284</a>
         </li>
       </ul>
-      <ul>
+      <ul class="info-cards-btn-list">
         <li>
-          <button>
-            Our Locations<svg>
-              <use></use>
+          <button class="info-cards-btn-list-1-item">
+            Our Locations<svg class="info-cards-btn-list-item-svg" width="10" height="30">
+              <use href="./css/images/symbol-defs.svg#icon-more" ></use>
             </svg>
           </button>
         </li>
         <li>
-          <button>
+          <button class="info-cards-btn-list-2-item">
             Franchise
-            <svg>
-              <use></use>
+            <svg class="info-cards-btn-list-item-svg" width="10" height="30">
+              <use href="./css/images/symbol-defs.svg#icon-more" ></use>
             </svg>
           </button>
         </li>
       </ul>
     </section>
     <!--  -->
-    <footer>
-      <p>homemade ice cream made</p>
-      <p>with passion</p>
-      <ul>
+    <footer class="footer-section container" >
+      <p class="footer-section-title" >homemade ice cream made</p>
+      <p class="footer-section-main-text">with passion</p>
+      <ul class="footer-link-list">
         <li>
-          <a href="">
-            <svg>
-              <use></use>
+          <a class="footer-link" href="">
+            <svg class="footer-icons-list" width="18" height="18">
+              <use href="./css/images/symbol-defs.svg#icon-git" ></use>
             </svg>
           </a>
         </li>
         <li>
-          <a href="">
-            <svg>
-              <use></use>
+          <a class="footer-link" href="">
+            <svg class="footer-icons-list" width="19" height="14">
+              <use href="./css/images/symbol-defs.svg#icon-telegram"></use>
             </svg>
           </a>
         </li>
         <li>
-          <a href="">
-            <svg>
-              <use></use>
+          <a class="footer-link" href="">
+            <svg class="footer-icons-list" width="8" height="19">
+              <use href="./css/images/symbol-defs.svg#icon-facebook"></use>
             </svg>
           </a>
         </li>
-        <p>Feel free to contact</p>
-        <a href="tel:+610383766284">+61 (0) 383 766 284</a>
-        <p>&copy; 2022 - IceCream. All Rights Reserved.</p>
-      </ul>
+        </ul>
+        <p class="footer-text">Feel free to contact</p>
+        <a class="footer-last-number" href="tel:+610383766284">+61 (0) 383 766 284</a>
+        <hr>
+        <p class="footer-last-text" >&copy; 2022 - IceCream. All Rights Reserved.</p>
+      
     </footer>
   </body>
 </html>
