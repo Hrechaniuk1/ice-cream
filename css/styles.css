@@ -671,3 +671,111 @@ color: rgb(252, 252, 252);
         margin-right: auto;
         text-align: center;
 }
+
+/* modal mobile menu */
+.modal-mob-menu {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(132, 161, 120);
+    padding-top: 12px;
+    padding-bottom: 57px;
+}
+
+.modal-visible {
+    display: block;
+}
+
+.mob-menu-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-bottom: 48px;
+    align-items: center;
+}
+
+
+.mob-menu-link-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.mob-menu-close-btn {
+    outline: transparent;
+    background-color: transparent;
+    border: 1px solid transparent;
+    transition: fill 250ms ease-in-out;
+}
+
+.mob-menu-close-btn:hover {
+fill: white
+}
+
+.mob-menu-link {
+    color: rgb(252, 252, 252);
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+        letter-spacing: 0;
+        text-align: center;
+}
+
+.mob-menu-link-current {
+    color: rgb(19, 19, 19);
+}
+
+.mob-menu-buy-btn {
+    border-radius: 10px;
+    background: rgb(248, 210, 78);
+        width: 152px;
+        height: 42px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: rgb(19, 19, 19);
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 17px;
+        letter-spacing: 0;
+        text-align: center;
+}
+
+.mob-menu-buy-btn:hover {
+
+}
+
+.mob-menu-buy-btn-icon {
+    fill: transparent;
+    stroke: black;
+}
+
+/* modal buy now */
+.modal-buy-now {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background-color: rgb(252, 252, 252);
+    border-radius: 5px;
+    overflow: hidden;
+    overflow-y: scroll;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
