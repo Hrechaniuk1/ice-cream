@@ -424,18 +424,109 @@
       </a>
     </div>
     <div class="modal-buy-now">
-      <button>
+      <button class="modal-buy-now-close-btn">
         <svg
               class="buy-now-modal-close-btn"
-              width="10"
-              height="10"
+              width="12"
+              height="12"
             >
-              <use href=""></use>
+              <use href="./css/images/symbol-defs.svg#icon-close-mob-menu-icon"></use>
             </svg>
       </button>
-      <h3>Buy now</h3>
-
+      <h3 class="modal-buy-now-header">Buy now</h3>
+<ul class="modal-buy-now-prop-list">
+  <li>
+    <div class="modal-buy-now-prop-container">
+      <div class="modal-buy-now-img-container">
+        <picture class="modal-buy-now-img" width="132" height="132">
+              <source
+                srcset="
+                  ./css/images/section-1/mob/ice-cream-mob.png    1x,
+                  ./css/images/section-1/mob/ice-cream-mob@2x.png 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img src="./css/images/section-1/mob/ice-cream-mob.png" alt="" />
+            </picture>
+      </div>
+      <p class="modal-buy-now-name">ice cream</p>
     </div>
-
+  </li>
+  <li>
+    <div class="modal-buy-now-prop-container modal-buy-now-prop-container-2">
+      <div class="modal-buy-now-img-container modal-buy-now-img-container-2">
+        <picture class="modal-buy-now-img" width="132" height="132">
+              <source
+                srcset="
+                  ./css/images/section-1/mob/ice-coffee-mob.png    1x,
+                  ./css/images/section-1/mob/ice-coffee-mob@2x.png 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img src="./css/images/section-1/mob/ice-coffee-mob.png" alt="" />
+            </picture>
+      </div>
+      <p class="modal-buy-now-name">ice coffee</p>
+    </div>
+  </li>
+  <li>
+    <div class="modal-buy-now-prop-container modal-buy-now-prop-container-3">
+      <div class="modal-buy-now-img-container modal-buy-now-img-container-3">
+        <picture class="modal-buy-now-img" width="132" height="132">
+              <source
+                srcset="
+                  ./css/images/section-1/mob/milk-shake-mob.png    1x,
+                  ./css/images/section-1/mob/milk-shake-mob@2x.png 2x
+                "
+                media="(max-width: 767px)"
+              />
+              <img src="./css/images/section-1/mob/milk-shake-mob.png" alt="" />
+            </picture>
+      </div>
+      <p class="modal-buy-now-name">milkshake</p>
+    </div>
+  </li>
+</ul>
+<form class="modal-buy-now-form">
+  <div class="modal-buy-now-form-input-container" >
+  <input class="modal-buy-now-form-input" type="text" placeholder="Name">
+  <input class="modal-buy-now-form-input" type="email" placeholder="Phone">
+  <textarea class="modal-buy-now-form-input-text" type="text" placeholder="Comment"></textarea>
+  </div>
+<button class="modal-buy-now-form-btn" type="submit" >Submit</button>
+</form>
+    </div>
+    <div class="modal-read-more">
+      <div class="modal-read-more-container" >
+      <button class="modal-read-more-close-btn">
+        <svg
+              class="buy-now-modal-close-btn"
+              width="12"
+              height="12"
+            >
+              <use href="./css/images/symbol-defs.svg#icon-close-mob-menu-icon"></use>
+            </svg>
+      </button>
+      <h3 class="modal-read-more-header">How it’s made?</h3>
+      <iframe class="modal-read-more-video" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p class="modal-read-more-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+    </div>
+    </div>
+    <div  class="modal-location ">
+      <div class="modal-location-container">
+      <button class="modal-location-close-btn">
+        <svg
+              class="buy-now-modal-close-btn"
+              width="12"
+              height="12"
+            >
+              <use href="./css/images/symbol-defs.svg#icon-close-mob-menu-icon"></use>
+            </svg>
+      </button>
+      <h3 class="modal-location-header" >Our Locations</h3>
+      <iframe class="modal-location-map" src="" frameborder="0"></iframe>
+      <a class="modal-location-btn" href="">Open map</a>
+    </div>
+    </div>
   </body>
 </html>

@@ -672,6 +672,7 @@ color: rgb(252, 252, 252);
         text-align: center;
 }
 
+
 /* modal mobile menu */
 .modal-mob-menu {
     display: none;
@@ -685,9 +686,6 @@ color: rgb(252, 252, 252);
     padding-bottom: 57px;
 }
 
-.modal-visible {
-    display: block;
-}
 
 .mob-menu-nav {
     display: flex;
@@ -764,6 +762,7 @@ fill: white
 
 /* modal buy now */
 .modal-buy-now {
+    display: none;
     position: absolute;
     top: 10px;
     left: 10px;
@@ -773,9 +772,279 @@ fill: white
     border-radius: 5px;
     overflow: hidden;
     overflow-y: scroll;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
+.modal-buy-now-close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: transparent;
+    outline: transparent;
+    border: 1px solid transparent;
+}
+
+.modal-buy-now-header {
+    color: rgb(19, 19, 19);
+        font-family: Seymour One;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0;
+        text-align: center;
+        margin-bottom: 84px;
+}
+
+.modal-buy-now-prop-list {
+    display: flex;
+    flex-direction: column;
+    gap: 84px;
+    align-items: center;
+}
+
+.modal-buy-now-prop-container {
+    position: relative;
+    width: 132px;
+    padding-top: 96px;
+    padding-bottom: 20px;
+    border-radius: 16px;
+    border: 2px solid rgb(150, 175, 140);
+    box-shadow: 0px 5.26px 19.73px 0px rgba(212, 20, 67, 0.1);
+}
+
+.modal-buy-now-prop-container-2 {
+    background-color: rgb(239, 212, 120);
+    border: 2px solid rgb(239, 212, 120);
+}
+
+.modal-buy-now-prop-container-3 {
+    border: 2px solid rgb(214, 147, 109);
+}
+
+.modal-buy-now-img-container {
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: rgba(156, 190, 143, 0.7);
+    position: absolute;
+    top: -35%;
+}
+
+.modal-buy-now-img-container-2 {
+    background-color: rgba(248, 210, 78, 0.7);
+}
+
+.modal-buy-now-img-container-3 {
+    background-color: rgba(213, 117, 63, 0.7);
+}
+
+.modal-buy-now-img {
+    position: absolute;
+    top: -7%;
+}
+
+.modal-buy-now-name {
+    color: rgb(19, 19, 19);
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0.04;
+        text-align: center;
+        text-transform: uppercase;
+}
+
+.modal-buy-now-form {
+    max-width: 224px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-buy-now-form-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.modal-buy-now-form-input {
+    box-sizing: border-box;
+        border: 1px solid rgb(132, 161, 120);
+        border-radius: 10px;
+        background: rgba(248, 210, 78, 0.1);
+    max-width: 224px;
+        height: 32.33px;
+    padding: 8px 12px;
+    color: rgb(19, 19, 19);
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 3.2px;
+        letter-spacing: 0;
+}
+
+.modal-buy-now-form-input-text {
+    box-sizing: border-box;
+        border: 1px solid rgb(132, 161, 120);
+        border-radius: 10px;
+    
+        background: rgba(248, 210, 78, 0.1);
+    padding: 8px 12px;
+    max-width: 224px;
+    min-height: 64px;
+        color: rgb(19, 19, 19);
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 3.2px;
+            letter-spacing: 0;
+}
+
+.modal-buy-now-form-btn {
+    border-radius: 10px;
+    background: rgb(248, 210, 78);
+    border: 1px solid transparent;
+    outline: transparent;
+    width: 114px;
+    height: 42.43px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(19, 19, 19);
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 15px;
+        letter-spacing: 0;
+        text-align: center;
+}
+
+/* modal read more */
+
+.modal-read-more {
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    background-color: rgb(252, 252, 252);
+    padding: 28px 29px;
+    border-radius: 10px;
+}
+
+.modal-read-more-container {
+display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.modal-read-more-close-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    border: 1px solid transparent;
+    outline: transparent;
+    background-color: transparent;
+}
+
+.modal-read-more-header {
+    color: rgb(19, 19, 19);
+        font-family: Seymour One;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0;
+        text-align: center;
+}
+
+.modal-read-more-video {
+    max-width: 224px;
+    min-height: 200px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.modal-read-more-description {
+    color: rgb(19, 19, 19);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 140%;
+        letter-spacing: 0;
+        text-align: center;
+    max-width: 224px;
+}
+
+/* modal location */
+
+.modal-location {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    left: 10px;
+    background-color: rgb(252, 252, 252);
+    padding: 28px 30px;
+}
+
+.modal-location-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.modal-location-close-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    outline: transparent;
+    border: 1px solid transparent;
+    background-color: transparent;
+}
+
+.modal-location-header {
+    color: rgb(19, 19, 19);
+        font-family: Seymour One;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0;
+        text-align: center;
+}
+
+.modal-location-map {
+    max-width: 224px;
+    max-height: 200px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.modal-location-btn {
+    border-radius: 10px;
+    background: rgb(248, 210, 78);
+    width: 134px;
+        height: 42px;
+        margin-left: auto;
+        margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(19, 19, 19);
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 15px;
+        letter-spacing: 0;
+        text-align: center;
+}
+
+/* modal visible */
+
+.modal-visible {
+    display: block;
+}
+
+.scroll-stop {
+    overflow: hidden;
+}
